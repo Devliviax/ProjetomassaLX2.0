@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 10rem;
+    text-align: center;
+    padding-top: 40vh;
+    text-shadow: 2px 2px 5px rgb(101, 101, 101);
+    text-transform: uppercase;
+  }
+  
+  .bg-html h1 {
+    color: rgb(219, 76, 36);
+  }
+  
+  .bg-css h1 {
+    color: rgb(21, 94, 170);
+  }
+  
+  .bg-js h1 {
+    color: rgb(220, 145, 31);
+  }
+  
+  .bg-bs h1 {
+    color: rgb(107, 0, 242);
+  }
+  
+  .bg{
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  
+  .bg-html {
+    background-image: url(../img/bg-html5.jpg);
+  }
+  
+  .bg-css {
+    background-image: url(../img/bg-css3.jpg);
+  }
+  
+  .bg-js {
+    background-image: url(../img/bg-js.jpg); 
+  }
+  
+  .bg-bs {
+    background-image: url(../img/bg-bs.jpg);
+  }
+  
+  
+  .bg-color-html {
+    background-color: rgba(219, 76, 36, 0.8);
+  }
+  
+  .bg-color-css {
+    background-color: rgba(21, 94, 170, 0.8);
+  }
+  
+  .bg-color-js {
+    background-color: rgba(220, 145, 31, 0.8);
+  }
+  
+  .bg-color-bs {
+    background-color: rgba(107, 0, 242, 0.8);
+  }
+  
+  .content-desc {
+    margin: 0 auto;
+    padding: 1.5em 0.5em;
+    width: 80vw;
+    height: 50vh;
+  }
+  
+  .content-desc h2 {
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3em;
+  }
+  
+  .content-desc p {
+    color: #ccc;
+    text-align: justify;
+    margin: 1.5em 0 0.5em;
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+  
+  /* BARRA DE MENU */
+  .header {
+    width: 100vw; /* vw - viewport width*/
+    height: 3.75rem;
+    background-color: rgba(0, 0, 0, 90%) ;
+    /* position: fixed; */
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+  }
+  
+  .menu {
+    text-align: center;
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 21px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  /* DIV COOKIES */
+  .cookies {
+    width: 350px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 90%);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgb(102, 92, 92);
+  }
+  
+  .cookies p {
+    color: rgb(206, 205, 205);
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cookies a {
+      text-decoration: none;
+    color: rgb(250, 32, 32);
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  .cookies button {
+    display: block;
+    margin: 1rem auto 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(36, 37, 37);
+    border: none;
+    color: #ffffffde;
+    font-size: 1rem;
+    cursor:pointer;
+    border-radius: 5px;
+  }
+  
+  .top{
+      width: 50px;
+      height: 50px;
+      background-color: rgba(8, 0, 0, 0.473);
+      position: fixed;
+      right: 50px;
+      bottom: 50px;
+      border-radius: 50%;
+      font-size: 2rem;
+     text-align: center;
+  }
+  
+  .top a{
+      text-decoration: none;
+  
+  }
+  /* opcional animação de roletagem ou scroll */
+  html{
+      scroll-behavior: smooth;
+  }
